@@ -1,0 +1,87 @@
+.table-x {
+    width: 100%;
+}
+
+.table-x th, .table-x td {
+    padding: 5px 2px;
+}
+
+.table-x tr {
+    background: rgb(230,230,230);
+}
+
+.table-x tr:nth-child(even) {
+    background: rgb(247,247,247);
+}
+
+.table-x > thead {
+    width: 100%;
+}
+
+.table-x > thead > tr {
+    background: rgba(110,200,155,0.83);
+}
+
+.table-x td {
+    font-size: 16px;
+}
+
+.table-x > tbody tr:hover {
+    background: #CECECE;
+    cursor: pointer;
+}
+
+.table-x tbody {
+    width: 100%;
+}
+
+.scrollable-container {
+    position: relative;
+    height: 195px;
+    margin: 5px 16px !important;
+}
+
+.scrollable-container-sm {
+    height: 125px;
+}
+.selected-item {
+    color: #000;
+    background: rgb(110, 200, 119) !important;
+}
+
+.status-bar {
+    margin: 0 16px;
+    margin-top: 5px;
+}
+
+.info-shower {
+    font-size: 16px;
+    background: #000;
+    border-radius: 8px / 8px;
+    padding: 3px;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.input-check {
+    min-height: 0 !important;
+    height: 20px;
+    width: 20px !important;
+}
+
+#checkAllItems {
+    position: relative;
+    top: 3px;
+}
+
+
+.money-formatted {
+    text-align: right !important;
+}
+
+.pos .button[disabled] {
+    pointer-events: none;
+    background: rgb(230, 230, 230) !important;
+    border: solid 1px rgb(209, 209, 209) !important;
+    color: #555555 !important;
+}

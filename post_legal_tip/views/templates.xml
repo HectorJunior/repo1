@@ -1,0 +1,9 @@
+<odoo>
+    <template id="pos_legal_base_assets" name="pos_base_legal_assets" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/pos_legal_tip/static/src/js/models.js"></script>
+            <script type="text/javascript" src="/pos_legal_tip/static/src/js/pos.js"></script> 
+        </xpath>
+    </template>
+
+</odoo>

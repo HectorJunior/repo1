@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+  
+    <t t-extend="OrderWidget">
+        <t t-jquery=".summary .total">
+
+            var entryLine = $(document.createElement('div')).addClass('subentry').text('Propina Legal (10%): ').attr('id', 'legalTip');
+            var entryValue = $(document.createElement('span')).addClass('value').text('0.00€');
+            entryLine.append(entryValue);
+
+            this.append(entryLine);
+        </t>
+    </t>
+
+    <!-- <t t-extend="Chrome">
+        <t t-jquery=".pos-rightheader" t-operation="append">
+             <div class="oe_status" id="credit_note_option">
+                <i class="fa fa-book oe_icon oe_orange" aria-hidden="true"></i>
+            </div>
+
+            <div class="oe_status" id="delivery_option">
+                <i class="fa fa-motorcycle oe_icon oe_orange" aria-hidden="true"></i>
+            </div>
+            <div class="oe_status" id="takeout_option">
+                <i class="fa fa-shopping-cart oe_icon oe_orange" aria-hidden="true"></i>
+            </div>
+
+
+
+        </t>
+    </t> -->
+
+
+
+</templates>
